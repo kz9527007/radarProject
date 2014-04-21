@@ -1,0 +1,27 @@
+clear all; close all;
+fofr    = 0:0.001:1;
+f1  = 4 * fofr;
+f2  = 5 * fofr;
+resp1   = abs(sin(pi .* f1));
+resp2   = abs(sin(pi .* f2));
+resp    = resp1 + resp2;
+respmax = max(resp);
+resp    = resp./respmax;
+
+figure('Name', 'PRF Staggering 4/5');
+clf;
+subplot(3,1,1);
+plot(fofr, resp1);
+title('T1 = 4');
+xlabel('Normalized frequency f/f_r');
+ylabel('Filter response');
+subplot(3,1,2);
+plot(fofr, resp2);
+title('T2 = 5');
+xlabel('Normalized frequency f/f_r');
+ylabel('Filter response');
+subplot(3,1,3);
+plot(fofr, resp);
+title('T1/T2 = 4/5');
+xlabel('Normalized frequency f/f_r');
+ylabel('Filter response');
