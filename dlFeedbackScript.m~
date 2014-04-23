@@ -1,6 +1,0 @@
-cd ~/radarProject/
-
-f = linspace(0,1, 1000);
-clf;
-figure(100);
-plot(f,dlFeedback(0.25,f),'-', f, dlFeedback(0.7, f), '--', f, dlFeedback(0.9, f), '-.);
