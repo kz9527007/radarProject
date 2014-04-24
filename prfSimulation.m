@@ -22,11 +22,19 @@ for k = (64+1):1000
 end
 
 h = h1 + h2;
+fs = 1/.001
 H = abs(fft(h, 1024));
+len = length(H);
+w = (0:len-1)*fs;
+w = w./len;
 figure('Name', 'frequency spectrum');
 clf;
-plot(H);
+plot(w,H);
 axis tight;
+title('Frequency spectrum');
+xlabel('Frequency, Hz');
+ylabel('Amplitude');
+
 
 f1 = 1/(.001*63)
 fdip = f1*63.5
