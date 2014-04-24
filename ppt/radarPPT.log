@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.10.14)  24 APR 2014 14:53
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.10.14)  24 APR 2014 14:57
 entering extended mode
  %&-line parsing enabled.
 **radarPPT.tex
@@ -787,33 +787,6 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 
 ] [4
 
-] [5
-
-] [6
-
-]
-[7
-
-] [8
-
-] [9
-
-] [10
-
-] [11
-
-] [12
-
-] [13
-
-] [14
-
-] [15
-
-] [16
-
-] [17
-
 ]
 \tf@nav=\write6
 \openout6 = `radarPPT.nav'.
@@ -824,29 +797,42 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 \tf@snm=\write8
 \openout8 = `radarPPT.snm'.
 
- (./radarPPT.aux)
+
+(./radarPPT.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 14476 strings out of 495061
- 269507 string characters out of 1182620
- 334573 words of memory out of 3000000
- 17245 multiletter control sequences out of 15000+50000
+ 14453 strings out of 495061
+ 269300 string characters out of 1182620
+ 333573 words of memory out of 3000000
+ 17244 multiletter control sequences out of 15000+50000
  9847 words of font info for 37 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 49i,14n,53p,418b,556s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-texlive/fonts/
-type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/pub
-lic/amsfonts/cm/cmssi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
-ts/symbols/msam10.pfb>
-Output written on radarPPT.pdf (17 pages, 162134 bytes).
+ 49i,14n,53p,418b,552s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Navigation5} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Navigation9} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Navigation8} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Navigation15} has been referenced but does not exis
+t, replaced by a fixed one
+
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share
+/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-texl
+ive/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-texlive/fonts/ty
+pe1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/publi
+c/amsfonts/cm/cmssi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
+/symbols/msam10.pfb>
+Output written on radarPPT.pdf (4 pages, 89426 bytes).
 PDF statistics:
- 472 PDF objects out of 1000 (max. 8388607)
- 35 named destinations out of 1000 (max. 500000)
+ 145 PDF objects out of 1000 (max. 8388607)
+ 13 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
