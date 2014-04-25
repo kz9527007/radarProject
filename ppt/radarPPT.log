@@ -1,5 +1,6 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.10.14)  25 APR 2014 13:36
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.10.14)  25 APR 2014 14:02
 entering extended mode
+ \write18 enabled.
  %&-line parsing enabled.
 **radarPPT.tex
 (./radarPPT.tex
@@ -651,13 +652,11 @@ Package: epstopdf-base 2009/10/17 v2.4 Base part for package epstopdf
 (/usr/share/texmf-texlive/tex/latex/oberdiek/grfext.sty
 Package: grfext 2007/09/30 v1.0 Managing graphics extensions (HO)
 )
-
-Package epstopdf Warning: Shell escape feature is not enabled.
-
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 433.
+
 (/usr/share/texmf-texlive/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2009/10/26 v1.1 Configuration of epstopdf for TeX Live
 )))
@@ -833,9 +832,30 @@ File: delayLineCancelers-eps-converted-to.pdf Graphic file (type pdf)
 
 <use delayLineCancelers-eps-converted-to.pdf> [4
 
- <./delayLineCancelers-eps-converted-to.pdf>] [5
+ <./delayLineCancelers-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <dlFeedback.eps>
+(epstopdf)                    date: 2014-04-22 18:23:26
+(epstopdf)                    size: 26825 bytes
+(epstopdf)             Output file: <dlFeedback-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=dlFeedback-eps-converted-to
+.pdf dlFeedback.eps>
+(epstopdf)             \includegraphics on input line 52.
+runsystem(epstopdf --outfile=dlFeedback-eps-converted-to.pdf dlFeedback.eps)...
+executed.
 
-] [6
+Package epstopdf Info: Result file: <dlFeedback-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-04-25 14:02:43
+(epstopdf)                    size: 18360 bytes.
+
+<dlFeedback-eps-converted-to.pdf, id=132, 1283.79625pt x 704.6325pt>
+File: dlFeedback-eps-converted-to.pdf Graphic file (type pdf)
+
+<use dlFeedback-eps-converted-to.pdf> [5
+
+ <./dlFeedback-eps-converted-to.pdf>]
+[6
+
+] [7
 
 ]
 \tf@nav=\write6
@@ -857,10 +877,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 14612 strings out of 495061
- 272085 string characters out of 1182620
+ 14621 strings out of 495061
+ 272275 string characters out of 1182620
  336795 words of memory out of 3000000
- 17374 multiletter control sequences out of 15000+50000
+ 17380 multiletter control sequences out of 15000+50000
  12160 words of font info for 45 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  49i,14n,53p,418b,552s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -877,9 +897,9 @@ ype1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-texlive/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
 m/cmsy5.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on radarPPT.pdf (6 pages, 190464 bytes).
+Output written on radarPPT.pdf (7 pages, 212304 bytes).
 PDF statistics:
- 234 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 267 PDF objects out of 1000 (max. 8388607)
+ 15 named destinations out of 1000 (max. 500000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -23,7 +23,7 @@
     	\end{align}
     	
     	\vfill
-    	\tiny{Source: Bassem R. Mahafza. \emph{Radar Systems Analysis and Design Using MATLAB\textsuperscript{\textregistered}}. Chapman \& Hall/CRC, 2000.}
+    	\tiny{Source: Bassem R.~Mahafza. \emph{Radar Systems Analysis and Design Using MATLAB\textsuperscript{\textregistered}}. Chapman \& Hall/CRC, 2000.}
 
     \end{frame}
     
@@ -37,7 +37,7 @@
       \end{align}
 
       \vfill
-    	\tiny{Source: Bassem R.~ Mahafza. \emph{Radar Systems Analysis and Design Using MATLAB\textsuperscript{\textregistered}}. Chapman \& Hall/CRC, 2000.}
+    	\tiny{Source: Bassem R.~Mahafza. \emph{Radar Systems Analysis and Design Using MATLAB\textsuperscript{\textregistered}}. Chapman \& Hall/CRC, 2000.}
 
     \end{frame}
 
@@ -47,14 +47,17 @@
     \end{frame}
     
     
-    
+    \begin{frame}{Delay Lines with Feedback}
+      \includegraphics[width=\linewidth{dlFeedback}
+    \end{frame}
+
  
     
     \begin{frame}{References}
         
         \begin{itemize}
-                 \item Merrill I.~ Skolnik. \emph{Introduction to Radar Systems}. McGraw-Hill, 2001.
-                 \item Bassem R.~ Mahafza. \emph{Radar Systems Analysis and Design Using MATLAB\textsuperscript{\textregistered}}. Chapman \& Hall/CRC, 2000.
+                 \item Merrill I.~Skolnik. \emph{Introduction to Radar Systems}. McGraw-Hill, 2001.
+                 \item Bassem R.~Mahafza. \emph{Radar Systems Analysis and Design Using MATLAB\textsuperscript{\textregistered}}. Chapman \& Hall/CRC, 2000.
                  
         \end{itemize}
     \end{frame}
