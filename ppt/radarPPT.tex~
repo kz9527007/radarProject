@@ -48,11 +48,43 @@
     
     
     \begin{frame}{Delay Lines with Feedback}
-      \includegraphics[width=\linewidth{dlFeedback}
-    \end{frame}
+      \begin{align}
+      H(z) & = \frac{1 - z^{-1}}{1-Kz^{-1}} \nonumber \\
+      |H(z)|^2 & = \frac{(1-z^{-1})(1-z)}{(1-Kz^{-1})(1-Kz)} \nonumber \\
+      & = \frac{2-(z+z^{-1})}{(1+K^2)-K(z+z^{-1})} \nonumber \\
+      \left|{H(e^{j\omega T})}\right|^2 & = \frac{2(1-cos\omega T)}{(1+K^2)-2Kcos(\omega T)} \nonumber
+      \end{align}
+      \vfill
+    	\tiny{Source: Bassem R.~Mahafza. \emph{Radar Systems Analysis and Design Using MATLAB\textsuperscript{\textregistered}}. Chapman \& Hall/CRC, 2000.}
 
- 
+    \end{frame}
     
+    
+    \begin{frame}{Delay Lines with Feedback}
+      \includegraphics[width=\linewidth]{dlFeedback}
+      \tiny{Source: Bassem R.~Mahafza. \emph{Radar Systems Analysis and Design Using MATLAB\textsuperscript{\textregistered}}. Chapman \& Hall/CRC, 2000.}
+
+    \end{frame}
+    
+    
+    \begin{frame}{PRF Staggering 4/5}
+	\includegraphics[width=\linewidth]{prfStaggering4_5}
+	\tiny{Source: Bassem R.~Mahafza. \emph{Radar Systems Analysis and Design Using MATLAB\textsuperscript{\textregistered}}. Chapman \& Hall/CRC, 2000.}
+    \end{frame}
+    
+    
+    \begin{frame}{PRF Staggering 33/34}
+    \includegraphics[width=\linewidth]{prfStaggering33_34}
+      \tiny{Source: Bassem R.~Mahafza. \emph{Radar Systems Analysis and Design Using MATLAB\textsuperscript{\textregistered}}. Chapman \& Hall/CRC, 2000.}
+    \end{frame}
+    
+   
+    \begin{frame}{PRF Staggering 63/64}
+    \includegraphics[width=\linewidth]{prfStaggering63_64}
+      \tiny{Source: Bassem R.~Mahafza. \emph{Radar Systems Analysis and Design Using MATLAB\textsuperscript{\textregistered}}. Chapman \& Hall/CRC, 2000.}
+    \end{frame}
+    
+
     \begin{frame}{References}
         
         \begin{itemize}

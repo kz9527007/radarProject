@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.10.14)  25 APR 2014 14:02
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.10.14)  25 APR 2014 15:43
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -832,30 +832,96 @@ File: delayLineCancelers-eps-converted-to.pdf Graphic file (type pdf)
 
 <use delayLineCancelers-eps-converted-to.pdf> [4
 
- <./delayLineCancelers-eps-converted-to.pdf>]
+ <./delayLineCancelers-eps-converted-to.pdf>] [5
+
+]
 Package epstopdf Info: Source file: <dlFeedback.eps>
 (epstopdf)                    date: 2014-04-22 18:23:26
 (epstopdf)                    size: 26825 bytes
 (epstopdf)             Output file: <dlFeedback-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-04-25 14:02:43
+(epstopdf)                    size: 18360 bytes
 (epstopdf)             Command: <epstopdf --outfile=dlFeedback-eps-converted-to
 .pdf dlFeedback.eps>
-(epstopdf)             \includegraphics on input line 52.
-runsystem(epstopdf --outfile=dlFeedback-eps-converted-to.pdf dlFeedback.eps)...
-executed.
+(epstopdf)             \includegraphics on input line 67.
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <dlFeedback-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-04-25 14:02:43
-(epstopdf)                    size: 18360 bytes.
-
-<dlFeedback-eps-converted-to.pdf, id=132, 1283.79625pt x 704.6325pt>
+<dlFeedback-eps-converted-to.pdf, id=157, 1283.79625pt x 704.6325pt>
 File: dlFeedback-eps-converted-to.pdf Graphic file (type pdf)
 
-<use dlFeedback-eps-converted-to.pdf> [5
+<use dlFeedback-eps-converted-to.pdf>
+Overfull \hbox (19.63568pt too wide) in paragraph at lines 67--67
+[][]\OT1/cmss/m/n/6 Source: 
+ []
 
- <./dlFeedback-eps-converted-to.pdf>]
 [6
 
-] [7
+ <./dlFeedback-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <prfStaggering4_5.eps>
+(epstopdf)                    date: 2014-04-22 18:23:26
+(epstopdf)                    size: 25943 bytes
+(epstopdf)             Output file: <prfStaggering4_5-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-04-25 15:32:53
+(epstopdf)                    size: 21976 bytes
+(epstopdf)             Command: <epstopdf --outfile=prfStaggering4_5-eps-conver
+ted-to.pdf prfStaggering4_5.eps>
+(epstopdf)             \includegraphics on input line 73.
+Package epstopdf Info: Output file is already uptodate.
+
+<prfStaggering4_5-eps-converted-to.pdf, id=188, 449.68pt x 338.26375pt>
+File: prfStaggering4_5-eps-converted-to.pdf Graphic file (type pdf)
+
+<use prfStaggering4_5-eps-converted-to.pdf>
+Overfull \vbox (0.98903pt too high) detected at line 73
+ []
+
+[7
+
+ <./prfStaggering4_5-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <prfStaggering33_34.eps>
+(epstopdf)                    date: 2014-04-22 18:23:26
+(epstopdf)                    size: 28461 bytes
+(epstopdf)             Output file: <prfStaggering33_34-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-04-25 15:32:53
+(epstopdf)                    size: 22022 bytes
+(epstopdf)             Command: <epstopdf --outfile=prfStaggering33_34-eps-conv
+erted-to.pdf prfStaggering33_34.eps>
+(epstopdf)             \includegraphics on input line 79.
+Package epstopdf Info: Output file is already uptodate.
+
+<prfStaggering33_34-eps-converted-to.pdf, id=220, 449.68pt x 338.26375pt>
+File: prfStaggering33_34-eps-converted-to.pdf Graphic file (type pdf)
+
+<use prfStaggering33_34-eps-converted-to.pdf>
+Overfull \vbox (0.98903pt too high) detected at line 79
+ []
+
+[8
+
+ <./prfStaggering33_34-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <prfStaggering63_64.eps>
+(epstopdf)                    date: 2014-04-22 18:23:26
+(epstopdf)                    size: 29567 bytes
+(epstopdf)             Output file: <prfStaggering63_64-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-04-25 15:32:53
+(epstopdf)                    size: 21847 bytes
+(epstopdf)             Command: <epstopdf --outfile=prfStaggering63_64-eps-conv
+erted-to.pdf prfStaggering63_64.eps>
+(epstopdf)             \includegraphics on input line 85.
+Package epstopdf Info: Output file is already uptodate.
+
+<prfStaggering63_64-eps-converted-to.pdf, id=251, 449.68pt x 338.26375pt>
+File: prfStaggering63_64-eps-converted-to.pdf Graphic file (type pdf)
+
+<use prfStaggering63_64-eps-converted-to.pdf>
+Overfull \vbox (0.98903pt too high) detected at line 85
+ []
+
+[9
+
+ <./prfStaggering63_64-eps-converted-to.pdf>] [10
+
+] [11
 
 ]
 \tf@nav=\write6
@@ -877,10 +943,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 14621 strings out of 495061
- 272275 string characters out of 1182620
+ 14652 strings out of 495061
+ 272992 string characters out of 1182620
  336795 words of memory out of 3000000
- 17380 multiletter control sequences out of 15000+50000
+ 17400 multiletter control sequences out of 15000+50000
  12160 words of font info for 45 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  49i,14n,53p,418b,552s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -897,9 +963,9 @@ ype1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-texlive/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
 m/cmsy5.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on radarPPT.pdf (7 pages, 212304 bytes).
+Output written on radarPPT.pdf (11 pages, 295627 bytes).
 PDF statistics:
- 267 PDF objects out of 1000 (max. 8388607)
- 15 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 386 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
