@@ -1,0 +1,11 @@
+close all; clear all;
+cd ~/radarProject/
+f = 50;
+t = 0:.001:2;
+sig = sin(2*pi*f.*t);
+figure('Name', 'Input Signal');
+clf;
+plot(t, sig);
+title('Input signal');
+xlabel('time in seconds');
+ylabel('amplitude');
