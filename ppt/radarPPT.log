@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.10.14)  26 APR 2014 14:22
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.10.14)  26 APR 2014 15:53
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -789,7 +789,7 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<singleDLC.png, id=39, 693.59125pt x 270.00874pt>
+<singleDLC.png, id=41, 693.59125pt x 270.00874pt>
 File: singleDLC.png Graphic file (type png)
  <use singleDLC.png>
 LaTeX Font Info:    Try loading font information for U+msa on input line 23.
@@ -819,7 +819,7 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
  <./singleDLC.png (PNG copy)>] [3
 
 ]
-<doubleDLC.png, id=98, 858.20625pt x 486.81876pt>
+<doubleDLC.png, id=100, 858.20625pt x 486.81876pt>
 File: doubleDLC.png Graphic file (type png)
  <use doubleDLC.png> [4
 
@@ -837,12 +837,12 @@ erted-to.pdf delayLineCancelers.eps>
 (epstopdf)             \includegraphics on input line 70.
 Package epstopdf Info: Output file is already uptodate.
 
-<delayLineCancelers-eps-converted-to.pdf, id=150, 1283.79625pt x 704.6325pt>
+<delayLineCancelers-eps-converted-to.pdf, id=152, 1283.79625pt x 704.6325pt>
 File: delayLineCancelers-eps-converted-to.pdf Graphic file (type pdf)
 
 <use delayLineCancelers-eps-converted-to.pdf> [6
 
- <./delayLineCancelers-eps-converted-to.pdf>] <feedbackDLC.png, id=182, 881.292
+ <./delayLineCancelers-eps-converted-to.pdf>] <feedbackDLC.png, id=184, 881.292
 5pt x 307.1475pt>
 File: feedbackDLC.png Graphic file (type png)
 
@@ -862,7 +862,7 @@ Package epstopdf Info: Source file: <dlFeedback.eps>
 (epstopdf)             \includegraphics on input line 101.
 Package epstopdf Info: Output file is already uptodate.
 
-<dlFeedback-eps-converted-to.pdf, id=234, 1283.79625pt x 704.6325pt>
+<dlFeedback-eps-converted-to.pdf, id=236, 1283.79625pt x 704.6325pt>
 File: dlFeedback-eps-converted-to.pdf Graphic file (type pdf)
 
 <use dlFeedback-eps-converted-to.pdf> [9
@@ -879,7 +879,7 @@ ted-to.pdf prfStaggering4_5.eps>
 (epstopdf)             \includegraphics on input line 107.
 Package epstopdf Info: Output file is already uptodate.
 
-<prfStaggering4_5-eps-converted-to.pdf, id=265, 449.68pt x 338.26375pt>
+<prfStaggering4_5-eps-converted-to.pdf, id=267, 449.68pt x 338.26375pt>
 File: prfStaggering4_5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use prfStaggering4_5-eps-converted-to.pdf>
@@ -900,7 +900,7 @@ erted-to.pdf prfStaggering33_34.eps>
 (epstopdf)             \includegraphics on input line 113.
 Package epstopdf Info: Output file is already uptodate.
 
-<prfStaggering33_34-eps-converted-to.pdf, id=296, 449.68pt x 338.26375pt>
+<prfStaggering33_34-eps-converted-to.pdf, id=298, 449.68pt x 338.26375pt>
 File: prfStaggering33_34-eps-converted-to.pdf Graphic file (type pdf)
 
 <use prfStaggering33_34-eps-converted-to.pdf>
@@ -921,7 +921,7 @@ erted-to.pdf prfStaggering63_64.eps>
 (epstopdf)             \includegraphics on input line 119.
 Package epstopdf Info: Output file is already uptodate.
 
-<prfStaggering63_64-eps-converted-to.pdf, id=327, 449.68pt x 338.26375pt>
+<prfStaggering63_64-eps-converted-to.pdf, id=329, 449.68pt x 338.26375pt>
 File: prfStaggering63_64-eps-converted-to.pdf Graphic file (type pdf)
 
 <use prfStaggering63_64-eps-converted-to.pdf>
@@ -930,9 +930,106 @@ Overfull \vbox (0.98903pt too high) detected at line 119
 
 [12
 
- <./prfStaggering63_64-eps-converted-to.pdf>] [13
+ <./prfStaggering63_64-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <inputSig60Hz.eps>
+(epstopdf)                    date: 2014-04-25 11:42:34
+(epstopdf)                    size: 15346 bytes
+(epstopdf)             Output file: <inputSig60Hz-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-04-26 15:44:54
+(epstopdf)                    size: 11087 bytes
+(epstopdf)             Command: <epstopdf --outfile=inputSig60Hz-eps-converted-
+to.pdf inputSig60Hz.eps>
+(epstopdf)             \includegraphics on input line 126.
+Package epstopdf Info: Output file is already uptodate.
 
-] [14
+<inputSig60Hz-eps-converted-to.pdf, id=360, 562.1pt x 421.575pt>
+File: inputSig60Hz-eps-converted-to.pdf Graphic file (type pdf)
+
+<use inputSig60Hz-eps-converted-to.pdf> [13
+
+ <./inputSig60Hz-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <freqSpec60Hz.eps>
+(epstopdf)                    date: 2014-04-26 15:23:38
+(epstopdf)                    size: 18725 bytes
+(epstopdf)             Output file: <freqSpec60Hz-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-04-26 15:37:53
+(epstopdf)                    size: 10768 bytes
+(epstopdf)             Command: <epstopdf --outfile=freqSpec60Hz-eps-converted-
+to.pdf freqSpec60Hz.eps>
+(epstopdf)             \includegraphics on input line 131.
+Package epstopdf Info: Output file is already uptodate.
+ <freqSpec60Hz-eps-converted-to.pdf, id=392, 449.68pt x 338.26375pt>
+File: freqSpec60Hz-eps-converted-to.pdf Graphic file (type pdf)
+
+<use freqSpec60Hz-eps-converted-to.pdf> [14
+
+ <./freqSpec60Hz-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <inputSig100Hz.eps>
+(epstopdf)                    date: 2014-04-25 11:42:34
+(epstopdf)                    size: 15426 bytes
+(epstopdf)             Output file: <inputSig100Hz-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-04-26 15:44:54
+(epstopdf)                    size: 10148 bytes
+(epstopdf)             Command: <epstopdf --outfile=inputSig100Hz-eps-converted
+-to.pdf inputSig100Hz.eps>
+(epstopdf)             \includegraphics on input line 136.
+Package epstopdf Info: Output file is already uptodate.
+ <inputSig100Hz-eps-converted-to.pdf, id=423, 562.1pt x 421.575pt>
+File: inputSig100Hz-eps-converted-to.pdf Graphic file (type pdf)
+
+<use inputSig100Hz-eps-converted-to.pdf> [15
+
+ <./inputSig100Hz-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <freqSpec100Hz.eps>
+(epstopdf)                    date: 2014-04-26 15:29:05
+(epstopdf)                    size: 18940 bytes
+(epstopdf)             Output file: <freqSpec100Hz-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-04-26 15:37:53
+(epstopdf)                    size: 10797 bytes
+(epstopdf)             Command: <epstopdf --outfile=freqSpec100Hz-eps-converted
+-to.pdf freqSpec100Hz.eps>
+(epstopdf)             \includegraphics on input line 141.
+Package epstopdf Info: Output file is already uptodate.
+ <freqSpec100Hz-eps-converted-to.pdf, id=454, 449.68pt x 338.26375pt>
+File: freqSpec100Hz-eps-converted-to.pdf Graphic file (type pdf)
+
+<use freqSpec100Hz-eps-converted-to.pdf> [16
+
+ <./freqSpec100Hz-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <inputSig1008Hz.eps>
+(epstopdf)                    date: 2014-04-25 11:42:34
+(epstopdf)                    size: 14628 bytes
+(epstopdf)             Output file: <inputSig1008Hz-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-04-26 15:44:54
+(epstopdf)                    size: 11817 bytes
+(epstopdf)             Command: <epstopdf --outfile=inputSig1008Hz-eps-converte
+d-to.pdf inputSig1008Hz.eps>
+(epstopdf)             \includegraphics on input line 147.
+Package epstopdf Info: Output file is already uptodate.
+ <inputSig1008Hz-eps-converted-to.pdf, id=485, 562.1pt x 421.575pt>
+File: inputSig1008Hz-eps-converted-to.pdf Graphic file (type pdf)
+
+<use inputSig1008Hz-eps-converted-to.pdf> [17
+
+ <./inputSig1008Hz-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <freqSpec1008Hz.eps>
+(epstopdf)                    date: 2014-04-26 15:29:28
+(epstopdf)                    size: 18496 bytes
+(epstopdf)             Output file: <freqSpec1008Hz-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-04-26 15:37:54
+(epstopdf)                    size: 8685 bytes
+(epstopdf)             Command: <epstopdf --outfile=freqSpec1008Hz-eps-converte
+d-to.pdf freqSpec1008Hz.eps>
+(epstopdf)             \includegraphics on input line 152.
+Package epstopdf Info: Output file is already uptodate.
+ <freqSpec1008Hz-eps-converted-to.pdf, id=516, 449.68pt x 338.26375pt>
+File: freqSpec1008Hz-eps-converted-to.pdf Graphic file (type pdf)
+
+<use freqSpec1008Hz-eps-converted-to.pdf> [18
+
+ <./freqSpec1008Hz-eps-converted-to.pdf>] [19
+
+] [20
 
 ]
 \tf@nav=\write6
@@ -954,10 +1051,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 14674 strings out of 495061
- 273736 string characters out of 1182620
- 337145 words of memory out of 3000000
- 17413 multiletter control sequences out of 15000+50000
+ 14757 strings out of 495061
+ 275144 string characters out of 1182620
+ 336795 words of memory out of 3000000
+ 17478 multiletter control sequences out of 15000+50000
  12465 words of font info for 46 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  49i,14n,53p,418b,552s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -974,9 +1071,9 @@ ype1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-texlive/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
 m/cmsy5.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on radarPPT.pdf (14 pages, 390688 bytes).
+Output written on radarPPT.pdf (20 pages, 473462 bytes).
 PDF statistics:
- 466 PDF objects out of 1000 (max. 8388607)
- 29 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 657 PDF objects out of 1000 (max. 8388607)
+ 41 named destinations out of 1000 (max. 500000)
+ 103 words of extra memory for PDF output out of 10000 (max. 10000000)
 
