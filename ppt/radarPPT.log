@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.10.14)  25 APR 2014 15:43
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.10.14)  26 APR 2014 14:13
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -849,12 +849,7 @@ Package epstopdf Info: Output file is already uptodate.
 <dlFeedback-eps-converted-to.pdf, id=157, 1283.79625pt x 704.6325pt>
 File: dlFeedback-eps-converted-to.pdf Graphic file (type pdf)
 
-<use dlFeedback-eps-converted-to.pdf>
-Overfull \hbox (19.63568pt too wide) in paragraph at lines 67--67
-[][]\OT1/cmss/m/n/6 Source: 
- []
-
-[6
+<use dlFeedback-eps-converted-to.pdf> [6
 
  <./dlFeedback-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <prfStaggering4_5.eps>
@@ -963,7 +958,7 @@ ype1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-texlive/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
 m/cmsy5.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on radarPPT.pdf (11 pages, 295627 bytes).
+Output written on radarPPT.pdf (11 pages, 295606 bytes).
 PDF statistics:
  386 PDF objects out of 1000 (max. 8388607)
  23 named destinations out of 1000 (max. 500000)
