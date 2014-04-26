@@ -13,7 +13,18 @@
     \frame{\titlepage}
     
     \begin{frame}{Single Delay Line Cancelers}
-    	\begin{align}
+    	\begin{figure}[h]
+		\centering
+		\includegraphics[width=\linewidth]{singleDLC} 
+		\caption{Single delay line canceler}
+	\end{figure}
+		\tiny{Source: Bassem R.~Mahafza. \emph{Radar Systems Analysis and Design Using MATLAB\textsuperscript{\textregistered}}. Chapman \& Hall/CRC, 2000.}
+
+    \end{frame}
+    
+    
+    \begin{frame}{Single Delay Line Cancelers}
+   	\begin{align}
     	 h(t) & = \delta(t) - \delta(t-T) \nonumber \\
     	 H(\omega) & = 1 - e^{-j\omega T} \nonumber \\
     	 |H(\omega)|^2 & = H(\omega)H^*(\omega) \nonumber \\
@@ -23,6 +34,17 @@
     	\end{align}
     	
     	\vfill
+    	\tiny{Source: Bassem R.~Mahafza. \emph{Radar Systems Analysis and Design Using MATLAB\textsuperscript{\textregistered}}. Chapman \& Hall/CRC, 2000.}
+
+    \end{frame}
+    
+    
+    \begin{frame}{Double Delay Line Cancelers}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=\linewidth]{doubleDLC} 
+		\caption{Two configurations for a double delay line canceler}
+	\end{figure}
     	\tiny{Source: Bassem R.~Mahafza. \emph{Radar Systems Analysis and Design Using MATLAB\textsuperscript{\textregistered}}. Chapman \& Hall/CRC, 2000.}
 
     \end{frame}
@@ -41,10 +63,23 @@
 
     \end{frame}
 
-    
+
+
     \begin{frame}{Delay Line Cancelers}
     	\includegraphics[width=\linewidth]{delayLineCancelers}
     \end{frame}
+    
+    
+    
+    \begin{frame}{Delay Lines with Feedback}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=\linewidth]{feedbackDLC} 
+		\caption{MTI recursive filter}
+	\end{figure}
+    	\tiny{Source: Bassem R.~Mahafza. \emph{Radar Systems Analysis and Design Using MATLAB\textsuperscript{\textregistered}}. Chapman \& Hall/CRC, 2000.}
+    \end{frame}
+    
     
     
     \begin{frame}{Delay Lines with Feedback}
@@ -61,11 +96,10 @@
     
     
     \begin{frame}{Delay Lines with Feedback}
-      \includegraphics[width=\linewidth]{dlFeedback}
+      \includegraphics[width=\linewidth]{dlFeedback} \\
       \tiny{Source: Bassem R.~Mahafza. \emph{Radar Systems Analysis and Design Using MATLAB\textsuperscript{\textregistered}}. Chapman \& Hall/CRC, 2000.}
-
     \end{frame}
-    
+   
     
     \begin{frame}{PRF Staggering 4/5}
 	\includegraphics[width=\linewidth]{prfStaggering4_5} \\
