@@ -9,9 +9,9 @@ doubleLC = doubleLC ./ (max(doubleLC));
 singleLC = 10*log10(singleLC + eps);
 doubleLC = 10*log10(doubleLC + eps);
 
-figure('Name','Delay Line Cancellers');
+figure('Name','Delay Line Canceller');
 plot(f,singleLC, f, doubleLC);
-title('Delay Line Cancelers');
+title('Delay Line Canceler');
 % axis('tight');
 xlabel('normalized frequency, f/f_r');
 ylabel('amplitude response in dB');
