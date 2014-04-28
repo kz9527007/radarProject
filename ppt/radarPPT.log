@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.10.14)  28 APR 2014 15:51
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.10.14)  28 APR 2014 19:22
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -826,24 +826,24 @@ File: doubleDLC.png Graphic file (type png)
  <./doubleDLC.png (PNG copy)>] [5
 
 ]
-Package epstopdf Info: Source file: <delayLineCancelers.eps>
+Package epstopdf Info: Source file: <delayLineCanceler.eps>
 (epstopdf)                    date: 2014-04-25 11:42:34
 (epstopdf)                    size: 21516 bytes
-(epstopdf)             Output file: <delayLineCancelers-eps-converted-to.pdf>
-(epstopdf)                    date: 2014-04-25 11:42:34
-(epstopdf)                    size: 17346 bytes
-(epstopdf)             Command: <epstopdf --outfile=delayLineCancelers-eps-conv
-erted-to.pdf delayLineCancelers.eps>
+(epstopdf)             Output file: <delayLineCanceler-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-04-28 19:22:34
+(epstopdf)                    size: 17455 bytes
+(epstopdf)             Command: <epstopdf --outfile=delayLineCanceler-eps-conve
+rted-to.pdf delayLineCanceler.eps>
 (epstopdf)             \includegraphics on input line 74.
 Package epstopdf Info: Output file is already uptodate.
 
-<delayLineCancelers-eps-converted-to.pdf, id=152, 1283.79625pt x 704.6325pt>
-File: delayLineCancelers-eps-converted-to.pdf Graphic file (type pdf)
+<delayLineCanceler-eps-converted-to.pdf, id=152, 1283.79625pt x 704.6325pt>
+File: delayLineCanceler-eps-converted-to.pdf Graphic file (type pdf)
 
-<use delayLineCancelers-eps-converted-to.pdf> [6
+<use delayLineCanceler-eps-converted-to.pdf> [6
 
- <./delayLineCancelers-eps-converted-to.pdf>] <feedbackDLC.png, id=184, 881.292
-5pt x 307.1475pt>
+ <./delayLineCanceler-eps-converted-to.pdf>] <feedbackDLC.png, id=184, 881.2925
+pt x 307.1475pt>
 File: feedbackDLC.png Graphic file (type png)
 
 <use feedbackDLC.png> [7
@@ -1063,7 +1063,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
  14761 strings out of 495061
- 275179 string characters out of 1182620
+ 275174 string characters out of 1182620
  337796 words of memory out of 3000000
  17480 multiletter control sequences out of 15000+50000
  12465 words of font info for 46 fonts, out of 3000000 for 9000
@@ -1082,7 +1082,7 @@ ype1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-texlive/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
 m/cmsy5.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on radarPPT.pdf (21 pages, 481470 bytes).
+Output written on radarPPT.pdf (21 pages, 481569 bytes).
 PDF statistics:
  683 PDF objects out of 1000 (max. 8388607)
  43 named destinations out of 1000 (max. 500000)

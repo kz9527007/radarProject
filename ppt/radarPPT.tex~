@@ -123,14 +123,20 @@
     
     
     \begin{frame}{PRF Staggering 33/34}
-    \includegraphics[width=\linewidth]{prfStaggering33_34} \\
-      \tiny{Source: Bassem R.~Mahafza. \emph{Radar Systems Analysis and Design Using MATLAB\textsuperscript{\textregistered}}. Chapman \& Hall/CRC, 2000.}
+      \begin{minipage}[t][0.8\textheight][t]{\textwidth}
+	\includegraphics[width=\linewidth]{prfStaggering33_34} \\
+	\vfill
+	\tiny{Source: Bassem R.~Mahafza. \emph{Radar Systems Analysis and Design Using MATLAB\textsuperscript{\textregistered}}. Chapman \& Hall/CRC, 2000.}
+      \end{minipage}
     \end{frame}
     
    
     \begin{frame}{PRF Staggering 63/64}
-    \includegraphics[width=\linewidth]{prfStaggering63_64} \\
-      \tiny{Source: Bassem R.~Mahafza. \emph{Radar Systems Analysis and Design Using MATLAB\textsuperscript{\textregistered}}. Chapman \& Hall/CRC, 2000.}
+      \begin{minipage}[t][0.8\textheight][t]{\textwidth}
+	\includegraphics[width=\linewidth]{prfStaggering63_64} \\
+	\vfill
+	\tiny{Source: Bassem R.~Mahafza. \emph{Radar Systems Analysis and Design Using MATLAB\textsuperscript{\textregistered}}. Chapman \& Hall/CRC, 2000.}
+      \end{minipage}
     \end{frame}
     
     \begin{frame}{First staggered blind speed}
