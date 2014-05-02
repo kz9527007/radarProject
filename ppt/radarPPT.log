@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.21)  2 MAY 2014 12:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.21)  3 MAY 2014 02:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1200,7 +1200,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 243.
 Here is how much of TeX's memory you used:
  15742 strings out of 493315
  294865 string characters out of 6137903
- 367151 words of memory out of 5000000
+ 367150 words of memory out of 5000000
  18743 multiletter control sequences out of 15000+600000
  12465 words of font info for 46 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -1220,7 +1220,7 @@ exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texl
 ive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texliv
 e/2013/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on radarPPT.pdf (24 pages, 447290 bytes).
+Output written on radarPPT.pdf (24 pages, 447453 bytes).
 PDF statistics:
  772 PDF objects out of 1000 (max. 8388607)
  690 compressed objects within 7 object streams

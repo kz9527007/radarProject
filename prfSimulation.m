@@ -52,4 +52,5 @@ f1 = 1/(.001*63)
 fdip = f1*63.5
 
 %% here in this problem T1 = 63 and T2=64 or in seconds T1 = 0.001*63 and
-%% T2 = .001* 64 
+%% T2 = .001* 64 here f1 was chosen to be 1/T1. T1 is the independent variable 
+%% and not f1.
