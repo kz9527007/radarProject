@@ -212,7 +212,7 @@
     \end{frame}
     
     
-    \begin{frame}{Conclusions}
+    \begin{frame}{Conclusion}
       \begin{itemize}
        \item Staggering PRFs is the best way to increase the blind speed.
        \item Using higher PRFs increases the blind speed, but it reduces the range of the radar too.

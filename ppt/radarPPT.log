@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.10.14)  3 MAY 2014 12:39
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.10.14)  3 MAY 2014 12:42
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1032,20 +1032,21 @@ File: freqSpec1008Hz-eps-converted-to.pdf Graphic file (type pdf)
 
 <use freqSpec1008Hz-eps-converted-to.pdf> [20
 
- <./freqSpec1008Hz-eps-converted-to.pdf>] [21
-
-] <inq.png, id=625, 572.1375pt x 648.4225pt>
+ <./freqSpec1008Hz-eps-converted-to.pdf>] <inq.png, id=600, 572.1375pt x 648.42
+25pt>
 File: inq.png Graphic file (type png)
- <use inq.png> [22
+ <use inq.png> [21
 
- <./inq.png (PNG copy)>] <digitalMTIProcessor.png, id=651, 641.39626pt x 248.93
+ <./inq.png (PNG copy)>] <digitalMTIProcessor.png, id=626, 641.39626pt x 248.93
 pt>
 File: digitalMTIProcessor.png Graphic file (type png)
 
-<use digitalMTIProcessor.png> [23
+<use digitalMTIProcessor.png> [22
 
  <./digitalMTIProcessor.png (PNG copy)>]
-[24
+[23
+
+] [24
 
 ] [25
 
