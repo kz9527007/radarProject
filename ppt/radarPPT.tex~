@@ -12,7 +12,7 @@
 \begin{document}
     \frame{\titlepage}
     
-    \begin{frame}{Single Delay Line Cancelers}
+    \begin{frame}{Single Delay Line Canceler}
       \begin{minipage}[t][0.8\textheight][t]{\textwidth}
 	\begin{figure}[h]
 		\centering
@@ -25,7 +25,7 @@
     \end{frame}
     
 
-    \begin{frame}{Single Delay Line Cancelers}
+    \begin{frame}{Single Delay Line Canceler}
       \begin{minipage}[t][0.8\textheight][t]{\textwidth}
    	\begin{align}
     	 h(t) & = \delta(t) - \delta(t-T) \nonumber \\
@@ -41,7 +41,7 @@
     \end{frame}
     
     
-    \begin{frame}{Double Delay Line Cancelers}
+    \begin{frame}{Double Delay Line Canceler}
       \begin{minipage}[t][0.8\textheight][t]{\textwidth}
 	\begin{figure}[h]
 		\centering
@@ -54,7 +54,7 @@
     \end{frame}
     
     
-    \begin{frame}{Double Delay Line Cancelers}
+    \begin{frame}{Double Delay Line Canceler}
       \begin{minipage}[t][0.8\textheight][t]{\textwidth}
 	\begin{align}
 	  h(t) & = \delta(t) - 2\delta(t-T) + \delta(t-2T) \nonumber \\
@@ -69,8 +69,8 @@
 
 
 
-    \begin{frame}{Delay Line Cancelers}
-    	\includegraphics[width=\linewidth]{delayLineCancelers}
+    \begin{frame}{Delay Line Canceler}
+    	\includegraphics[width=\linewidth]{delayLineCanceler}
     \end{frame}
     
     
@@ -79,10 +79,11 @@
       \begin{minipage}[t][0.8\textheight][t]{\textwidth}
 	\begin{figure}[h]
 		\centering
-		\includegraphics[width=\linewidth]{feedbackDLC} 
+		\includegraphics[width=0.8\linewidth]{feedbackDLC} 
 		\caption{MTI recursive filter}
 	\end{figure}
 	\vfill
+	\tiny{Here, K is the gain factor.} \\
     	\tiny{Source: Bassem R.~Mahafza. \emph{Radar Systems Analysis and Design Using MATLAB\textsuperscript{\textregistered}}. Chapman \& Hall/CRC, 2000.}
       \end{minipage}
     \end{frame}
@@ -124,8 +125,10 @@
     
     \begin{frame}{PRF Staggering 33/34}
       \begin{minipage}[t][0.8\textheight][t]{\textwidth}
-	\includegraphics[width=\linewidth]{prfStaggering33_34} \\
+	\centering
+	\includegraphics[width=0.7\linewidth]{prfStaggering33_34} \\
 	\vfill
+	\tiny{Note: The dips in the upper two plots all touch y=0 axis in reality. But since this is a digital plot with just 1000 samples from t=0 to t=1, some of them did not get sampled.} \\
 	\tiny{Source: Bassem R.~Mahafza. \emph{Radar Systems Analysis and Design Using MATLAB\textsuperscript{\textregistered}}. Chapman \& Hall/CRC, 2000.}
       \end{minipage}
     \end{frame}
@@ -133,8 +136,10 @@
    
     \begin{frame}{PRF Staggering 63/64}
       \begin{minipage}[t][0.8\textheight][t]{\textwidth}
-	\includegraphics[width=\linewidth]{prfStaggering63_64} \\
+	\centering
+	\includegraphics[width=0.7\linewidth]{prfStaggering63_64} \\
 	\vfill
+	\tiny{Note: The dips in the upper two plots all touch y=0 axis in reality. But since this is a digital plot with just 1000 samples from t=0 to t=1, some of them did not get sampled.} \\
 	\tiny{Source: Bassem R.~Mahafza. \emph{Radar Systems Analysis and Design Using MATLAB\textsuperscript{\textregistered}}. Chapman \& Hall/CRC, 2000.}
       \end{minipage}
     \end{frame}
@@ -182,8 +187,25 @@
 
     
     \begin{frame}{Filtered spectrum of 1008Hz input}
-      \includegraphics[width=\linewidth]{freqSpec1008Hz}
+      \begin{minipage}[t][0.8\textheight][t]{\textwidth}
+      \centering
+      \includegraphics[width=0.7\linewidth]{freqSpec1008Hz} \\
+	\vfill
+	\tiny{Here we are getting a non-zero filtered output because of aliasing happening due to limited sample rates possible. Ideally we should get a zero output at the frequency in which the blind speed occurs (1008Hz).}
+      \end{minipage}
     \end{frame}
+    
+    
+    \begin{frame}{Conclusions}
+      \begin{itemize}
+       \item Staggering PRFs is the best way to increase the blind speed.
+       \item Using higher PRFs increases the blind speed, but it reduces the range of the radar too.
+       \item Using staggering ratios like 63/64 gives us an actual first blind speed that is (63+64)/2 or 63.5 times the lowest blind speed among those PRFs.
+       \item Similarly by making the staggering ratio closer to 1 and/or by using more than two PRFs, we can get even higher blind speeds without reducing the range of the radar.
+      \end{itemize}
+
+    \end{frame}
+
 
     
     
@@ -192,7 +214,8 @@
         \begin{itemize}
                  \item Merrill I.~Skolnik. \emph{Introduction to Radar Systems}. McGraw-Hill, 2001.
                  \item Bassem R.~Mahafza. \emph{Radar Systems Analysis and Design Using MATLAB\textsuperscript{\textregistered}}. Chapman \& Hall/CRC, 2000.
-                 
+                 \item http://en.wikipedia.org/wiki/Moving\_target\_indication
+                 \item http://www.radartutorial.eu/11.coherent/co13.en.html
         \end{itemize}
     \end{frame}
     

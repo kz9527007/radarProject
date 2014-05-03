@@ -12,7 +12,7 @@
 \begin{document}
     \frame{\titlepage}
     
-    \begin{frame}{Single Delay Line Cancelers}
+    \begin{frame}{Single Delay Line Canceler}
       \begin{minipage}[t][0.8\textheight][t]{\textwidth}
 	\begin{figure}[h]
 		\centering
@@ -25,7 +25,7 @@
     \end{frame}
     
 
-    \begin{frame}{Single Delay Line Cancelers}
+    \begin{frame}{Single Delay Line Canceler}
       \begin{minipage}[t][0.8\textheight][t]{\textwidth}
    	\begin{align}
     	 h(t) & = \delta(t) - \delta(t-T) \nonumber \\
@@ -41,11 +41,11 @@
     \end{frame}
     
     
-    \begin{frame}{Double Delay Line Cancelers}
+    \begin{frame}{Double Delay Line Canceler}
       \begin{minipage}[t][0.8\textheight][t]{\textwidth}
 	\begin{figure}[h]
 		\centering
-		\includegraphics[width=\linewidth]{doubleDLC} 
+		\includegraphics[width=0.8\linewidth]{doubleDLC} 
 		\caption{Two configurations for a double delay line canceler}
 	\end{figure}
 	\vfill
@@ -54,23 +54,23 @@
     \end{frame}
     
     
-    \begin{frame}{Double Delay Line Cancelers}
+    \begin{frame}{Double Delay Line Canceler}
       \begin{minipage}[t][0.8\textheight][t]{\textwidth}
-      \begin{align}
-       h(t) & = \delta(t) - 2\delta(t-T) + \delta(t-2T) \nonumber \\
-       |H(\omega)|^2 & = |H_1(\omega)|^2|H_1(\omega)|^2 \nonumber \\
-       & where~ |H_1(\omega)|^2 = 4(sin(\omega T/2))^2 \nonumber \\
-       |H(\omega)|^2 & = 16\left(sin\left(\omega\frac{T}{2}\right)\right)^4 \nonumber
-      \end{align}
-      \vfill
+	\begin{align}
+	  h(t) & = \delta(t) - 2\delta(t-T) + \delta(t-2T) \nonumber \\
+	  |H(\omega)|^2 & = |H_1(\omega)|^2|H_1(\omega)|^2 \nonumber \\
+	  & where~ |H_1(\omega)|^2 = 4(sin(\omega T/2))^2 \nonumber \\
+	  |H(\omega)|^2 & = 16\left(sin\left(\omega\frac{T}{2}\right)\right)^4 \nonumber
+	\end{align}
+	\vfill
     	\tiny{Source: Bassem R.~Mahafza. \emph{Radar Systems Analysis and Design Using MATLAB\textsuperscript{\textregistered}}. Chapman \& Hall/CRC, 2000.}
       \end{minipage}
     \end{frame}
 
 
 
-    \begin{frame}{Delay Line Cancelers}
-    	\includegraphics[width=\linewidth]{delayLineCancelers}
+    \begin{frame}{Delay Line Canceler}
+    	\includegraphics[width=\linewidth]{delayLineCanceler}
     \end{frame}
     
     
@@ -90,56 +90,68 @@
     
     
     \begin{frame}{Delay Lines with Feedback}
-      \begin{align}
-      H(z) & = \frac{1 - z^{-1}}{1-Kz^{-1}} \nonumber \\
-      |H(z)|^2 & = \frac{(1-z^{-1})(1-z)}{(1-Kz^{-1})(1-Kz)} \nonumber \\
-      & = \frac{2-(z+z^{-1})}{(1+K^2)-K(z+z^{-1})} \nonumber \\
-      \left|{H(e^{j\omega T})}\right|^2 & = \frac{2(1-cos\omega T)}{(1+K^2)-2Kcos(\omega T)} \nonumber
-      \end{align}
-      \vfill
-      \vfill
-    	\tiny{Source: Bassem R.~Mahafza. \emph{Radar Systems Analysis and Design Using MATLAB\textsuperscript{\textregistered}}. Chapman \& Hall/CRC, 2000.}
-
+      \begin{minipage}[t][0.8\textheight][t]{\textwidth}
+	\begin{align}
+	  H(z) & = \frac{1 - z^{-1}}{1-Kz^{-1}} \nonumber \\
+	  |H(z)|^2 & = \frac{(1-z^{-1})(1-z)}{(1-Kz^{-1})(1-Kz)} \nonumber \\
+	  & = \frac{2-(z+z^{-1})}{(1+K^2)-K(z+z^{-1})} \nonumber \\
+	  \left|{H(e^{j\omega T})}\right|^2 & = \frac{2(1-cos\omega T)}{(1+K^2)-2Kcos(\omega T)} \nonumber
+	\end{align}
+	\vfill
+	\tiny{Source: Bassem R.~Mahafza. \emph{Radar Systems Analysis and Design Using MATLAB\textsuperscript{\textregistered}}. Chapman \& Hall/CRC, 2000.}
+      \end{minipage}
     \end{frame}
     
     
     \begin{frame}{Delay Lines with Feedback}
-      \includegraphics[width=\linewidth]{dlFeedback} \\
-      \vfill
-      \vfill
-      \tiny{Source: Bassem R.~Mahafza. \emph{Radar Systems Analysis and Design Using MATLAB\textsuperscript{\textregistered}}. Chapman \& Hall/CRC, 2000.}
+      \begin{minipage}[t][0.8\textheight][t]{\textwidth}
+	\includegraphics[width=\linewidth]{dlFeedback} \\
+	\vfill
+	\tiny{Source: Bassem R.~Mahafza. \emph{Radar Systems Analysis and Design Using MATLAB\textsuperscript{\textregistered}}. Chapman \& Hall/CRC, 2000.}
+      \end{minipage}
     \end{frame}
    
     
     \begin{frame}{PRF Staggering 4/5}
-	\includegraphics[width=\linewidth]{prfStaggering4_5} \\
+      \begin{minipage}[t][0.8\textheight][t]{\textwidth}
+	\centering
+	\includegraphics[width=0.8\linewidth]{prfStaggering4_5} \\
+	\vfill
 	\tiny{Source: Bassem R.~Mahafza. \emph{Radar Systems Analysis and Design Using MATLAB\textsuperscript{\textregistered}}. Chapman \& Hall/CRC, 2000.}
+      \end{minipage}
     \end{frame}
     
     
     \begin{frame}{PRF Staggering 33/34}
-    \includegraphics[width=\linewidth]{prfStaggering33_34} \\
-      \tiny{Source: Bassem R.~Mahafza. \emph{Radar Systems Analysis and Design Using MATLAB\textsuperscript{\textregistered}}. Chapman \& Hall/CRC, 2000.}
+      \begin{minipage}[t][0.8\textheight][t]{\textwidth}
+	\centering
+	\includegraphics[width=0.7\linewidth]{prfStaggering33_34} \\
+	\vfill
+	\tiny{Note: The upper two plots all touch y=0 axis at the lower end of the lobes in reality. But since this is a digital plot with just 1000 samples from t=0 to t=1, some of the zero points cannot be seen in those plots.} \\
+	\tiny{Source: Bassem R.~Mahafza. \emph{Radar Systems Analysis and Design Using MATLAB\textsuperscript{\textregistered}}. Chapman \& Hall/CRC, 2000.}
+      \end{minipage}
     \end{frame}
     
    
     \begin{frame}{PRF Staggering 63/64}
-    \includegraphics[width=\linewidth]{prfStaggering63_64} \\
-      \tiny{Source: Bassem R.~Mahafza. \emph{Radar Systems Analysis and Design Using MATLAB\textsuperscript{\textregistered}}. Chapman \& Hall/CRC, 2000.}
+      \begin{minipage}[t][0.8\textheight][t]{\textwidth}
+	\centering
+	\includegraphics[width=0.7\linewidth]{prfStaggering63_64} \\
+	\vfill
+	\tiny{Note: The upper two plots all touch y=0 axis at the lower end of the lobes in reality. But since this is a digital plot with just 1000 samples from t=0 to t=1, some of the zero points cannot be seen in those plots.} \\
+	\tiny{Source: Bassem R.~Mahafza. \emph{Radar Systems Analysis and Design Using MATLAB\textsuperscript{\textregistered}}. Chapman \& Hall/CRC, 2000.}
+      \end{minipage}
     \end{frame}
     
     \begin{frame}{First staggered blind speed}
-     \begin{align}
-      \frac{n_1}{T_1} & = \frac{n_2}{T_2} = ... = \frac{n_N}{T_N} \nonumber \\
-      v_{blind} & = \frac{n_1 + n_2 + ... + n_N}{N} v_{blind1} \nonumber
-     \end{align}
-     \vfill
-     \vfill
-     \vfill
-     \vfill
-     \vfill
-      \tiny{Source: Bassem R.~Mahafza. \emph{Radar Systems Analysis and Design Using MATLAB\textsuperscript{\textregistered}}. Chapman \& Hall/CRC, 2000.}
-
+      \begin{minipage}[t][0.8\textheight][t]{\textwidth}
+	\begin{align}
+	  \frac{n_1}{T_1} & = \frac{n_2}{T_2} = ... = \frac{n_N}{T_N} \nonumber \\
+	  v_{blind} & = \frac{n_1 + n_2 + ... + n_N}{N} v_{blind1} \nonumber
+	\end{align}
+	\vfill
+	\tiny{Source: Bassem R.~Mahafza. \emph{Radar Systems Analysis and Design Using MATLAB\textsuperscript{\textregistered}}. Chapman \& Hall/CRC, 2000.}
+      \end{minipage}
     \end{frame}
 
     
@@ -165,14 +177,34 @@
     
     
     \begin{frame}{1008Hz input}
-      \includegraphics[width=\linewidth]{inputSig1008Hz} \\
-      \tiny{Aliased because sampling rate, 1000Hz, is below twice the sampled frequency i.e. 2 * 1008Hz.}
+      \begin{minipage}[t][0.8\textheight][t]{\textwidth}
+	\includegraphics[width=\linewidth]{inputSig1008Hz} \\
+	\vfill
+	\tiny{Aliased because sampling rate, 1000Hz, is below twice the sampled frequency i.e. 2 * 1008Hz.}
+      \end{minipage}
     \end{frame}
 
     
     \begin{frame}{Filtered spectrum of 1008Hz input}
-      \includegraphics[width=\linewidth]{freqSpec1008Hz}
+      \begin{minipage}[t][0.8\textheight][t]{\textwidth}
+      \centering
+      \includegraphics[width=0.7\linewidth]{freqSpec1008Hz} \\
+	\vfill
+	\tiny{Here we are getting a non-zero filtered output because of aliasing happening due to limited sample rates possible. Ideally we should get a zero output at the frequency in which the blind speed occurs (1008Hz).}
+      \end{minipage}
     \end{frame}
+    
+    
+    \begin{frame}{Conclusions}
+      \begin{itemize}
+       \item Staggering PRFs is the best way to increase the blind speed.
+       \item Just using higher PRFs increases the blind speed, but it reduces the range of the radar too.
+       \item By using staggering ratios like 63/64 we get the first actual blind speed to be (63+64)/2 or 63.5 times the lowest blind speed among those PRFs.
+       \item Similarly by making the staggering ratio closed to 1 and/or by using more than two PRFs, we can get even higher blind speeds without reducing the range of the radar.
+      \end{itemize}
+
+    \end{frame}
+
 
     
     
@@ -181,7 +213,8 @@
         \begin{itemize}
                  \item Merrill I.~Skolnik. \emph{Introduction to Radar Systems}. McGraw-Hill, 2001.
                  \item Bassem R.~Mahafza. \emph{Radar Systems Analysis and Design Using MATLAB\textsuperscript{\textregistered}}. Chapman \& Hall/CRC, 2000.
-                 
+                 \item http://en.wikipedia.org/wiki/Moving\_target\_indication
+                 \item http://www.radartutorial.eu/11.coherent/co13.en.html
         \end{itemize}
     \end{frame}
     
