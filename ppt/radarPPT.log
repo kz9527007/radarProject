@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.10.14)  3 MAY 2014 12:37
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.10.14)  3 MAY 2014 12:39
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1069,32 +1069,29 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 14794 strings out of 495061
- 275586 string characters out of 1182620
+ 14793 strings out of 495061
+ 275574 string characters out of 1182620
  337796 words of memory out of 3000000
  17501 multiletter control sequences out of 15000+50000
  12465 words of font info for 46 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  49i,14n,53p,418b,552s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Navigation26} has been referenced but does not ex
-ist, replaced by a fixed one
-
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share
-/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texl
-ive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/ty
-pe1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/a
-msfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
-ss10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss12.pfb></
-usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/t
-exmf-texlive/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-texlive
-/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-texlive/fonts/typ
-e1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-texlive/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
-cmsy5.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></
-usr/share/texmf-texlive/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on radarPPT.pdf (25 pages, 605799 bytes).
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/
+type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public
+/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
+cmss10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss12.pfb>
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share
+/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-texli
+ve/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-texlive/fonts/t
+ype1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-texlive/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
+m/cmsy5.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on radarPPT.pdf (25 pages, 605726 bytes).
 PDF statistics:
- 789 PDF objects out of 1000 (max. 8388607)
- 52 named destinations out of 1000 (max. 500000)
+ 788 PDF objects out of 1000 (max. 8388607)
+ 51 named destinations out of 1000 (max. 500000)
  118 words of extra memory for PDF output out of 10000 (max. 10000000)
 

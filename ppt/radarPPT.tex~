@@ -12,12 +12,28 @@
 \begin{document}
     \frame{\titlepage}
     
+    
+    \begin{frame}{Moving Target Indicator}
+      \begin{minipage}[t][0.8\textheight][t]{\textwidth}    	
+    	\begin{itemize}
+		    \item mode of operation of radar
+		    \item makes use of doppler effect
+	    \end{itemize}
+    	\begin{figure}[h]
+    		\centering
+    		\includegraphics[width=0.7\linewidth]{mti} 
+    	\end{figure}
+	\vfill
+	\tiny{Source: Merrill I.~Skolnik. \emph{Introduction to Radar Systems}. McGraw-Hill, 2001.}
+      \end{minipage}
+    \end{frame}
+
+    
     \begin{frame}{Single Delay Line Canceler}
       \begin{minipage}[t][0.8\textheight][t]{\textwidth}
 	\begin{figure}[h]
 		\centering
 		\includegraphics[width=\linewidth]{singleDLC} 
-		\caption{Single delay line canceler}
 	\end{figure}
 	\vfill
 	\tiny{Source: Bassem R.~Mahafza. \emph{Radar Systems Analysis and Design Using MATLAB\textsuperscript{\textregistered}}. Chapman \& Hall/CRC, 2000.} 
@@ -200,14 +216,34 @@
       \begin{itemize}
        \item Staggering PRFs is the best way to increase the blind speed.
        \item Using higher PRFs increases the blind speed, but it reduces the range of the radar too.
-       \item Using staggering ratios like 63/64 gives us an actual first blind speed that is (63+64)/2 or 63.5 times the lowest blind speed among those PRFs.
-       \item Similarly by making the staggering ratio closer to 1 and/or by using more than two PRFs, we can get even higher blind speeds without reducing the range of the radar.
+       \item Using staggering ratios like 63/64 gives us an actual first blind speed that is (63+64)/2 or 63.5 times the lowest blind speed among the staggered PRFs.
+       \item Similarly by making the staggering ratio closer to 1 and/or by using more than two staggered PRFs, we can get even higher blind speeds without reducing the range of the radar.
       \end{itemize}
 
     \end{frame}
 
 
+    \begin{frame}{Digital MTI (I and Q channels)}
+      \begin{minipage}[t][0.8\textheight][t]{\textwidth}
+ 	\begin{figure}[h]
+		\centering
+		\includegraphics[height=0.7\textheight]{inq}
+	\end{figure}
+	\vfill
+	\tiny{Source: Merrill I.~Skolnik. \emph{Introduction to Radar Systems}. McGraw-Hill, 2001.}
+      \end{minipage}
+    \end{frame}
     
+    \begin{frame}{Digital MTI Processor}
+      \begin{minipage}[t][0.8\textheight][t]{\textwidth}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.9\linewidth]{digitalMTIProcessor}
+	\end{figure}
+	\vfill
+	\tiny{Source: Merrill I.~Skolnik. \emph{Introduction to Radar Systems}. McGraw-Hill, 2001.}
+      \end{minipage}
+    \end{frame}
     
     \begin{frame}{References}
         
@@ -222,7 +258,7 @@
     
     \begin{frame}[c]
      \begin{center}
-       \Huge Thanks
+       \Huge Thank You
      \end{center}
     \end{frame}
 
